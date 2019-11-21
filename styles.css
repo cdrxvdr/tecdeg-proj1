@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -43,7 +43,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: white;
+    color: #5F89C7;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -74,19 +74,19 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.2) rotate(-5deg);
 }
 .tag {
-  background-color: #efefef;
+  background-color: #5F89C7;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 3px;
   display: table;
   margin: 10px auto;
-} 
+}
 .location {
   background-color: #222;
-  color: yellow;
+  color: #5F89C7;
 }
 .card {
   margin: 30px;
@@ -164,10 +164,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -199,4 +199,3 @@ a.social:hover {
   }
 
 }
-
